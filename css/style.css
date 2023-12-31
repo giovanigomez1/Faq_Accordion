@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 html {
   font-size: 62.5%;
 }
@@ -23,7 +22,6 @@ body {
   font-family: 'Work Sans', sans-serif;
 }
 
-
 .faqbox {
   max-width: 54rem;
   background-color: hsl(0, 0%, 100%);
@@ -34,17 +32,14 @@ body {
   margin-top: 13%;
 }
 
-.attribution {
-  margin-bottom: 3rem;
-}
-
-
 .faqbox__main {
   display: flex;
   gap: 2rem;
   align-content: center;
   margin-bottom: 2rem;
 }
+
+
 
 .faqbox__main-title {
   font-size: 4.6rem;
@@ -57,15 +52,13 @@ body {
 
 .faqbox__accordion--ele:first-child {
   border-top: none;
-  
-  
 }
 .faqbox__accordion--ele {
   padding: 1.8rem 1rem;
   border-top: 1px solid hsl(275, 100%, 97%);
   font-size: 1.6rem;
-  
 }
+
 .faqbox__accordion--ele-title {
   font-weight: 700;
   cursor: pointer;
@@ -78,7 +71,6 @@ body {
 .faqbox__accordion--ele-title:hover {
   color: hsl(258, 76%, 40%);
 }
-
 
 .faqbox__accordion--ele-content {
   margin-top: 2rem;
@@ -95,4 +87,48 @@ body {
 
 .attribution {
   margin-top: auto;
+  margin-bottom: 3rem;
 }
+
+
+
+/* /// MOBILE /// */
+@media (max-width: 41.56em) {
+  .faqbox {
+    width: 70%;
+  }
+  .faqbox__main-title {
+    font-size: 3.9rem;
+  }
+  .faqbox__main-img {
+    width: 3rem;
+  }
+  .attribution {
+    font-size: 1.2rem;
+  }
+  .faqbox__accordion--ele-title span {
+    font-size: 1.7rem;
+  }
+  .faqbox__accordion--ele-content {
+    font-size: 1.5rem;
+  }
+  .faqbox__accordion--ele-title--img {
+    width: 2.4rem;
+  }
+}
+
+
+
+@media (max-width: 31.25em) {
+  body {
+    background-image: url('../assets/images/background-pattern-mobile.svg');
+    background-size: contain;
+    background-repeat: no-repeat;  
+  }
+  .faqbox {
+    width: 85%;
+    margin-top: 27%;
+  }
+}
+
+
