@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/giovanigomez1/Faq_Accordion)
-- Live Site URL: [Add live site URL here](https://faq-accordion-800521.netlify.app/)
+- Solution URL: [Solution URL](https://github.com/giovanigomez1/Faq_Accordion)
+- Live Site URL: [Live site URL](https://faq-accordion-800521.netlify.app/)
 
 ## My process
 
